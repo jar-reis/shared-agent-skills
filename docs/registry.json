@@ -1,5 +1,5 @@
 {
-  "total_skills": 16,
+  "total_skills": 17,
   "skills": [
     {
       "name": "agents-sdk",
@@ -90,6 +90,18 @@
       "description": "Use when scheduling recurring polls, read-only monitors, or background jobs that must survive shell session boundaries.",
       "version": "1.1.0",
       "category": "",
+      "runtimes": [
+        "agents",
+        "claude",
+        "codex",
+        "hermes"
+      ]
+    },
+    {
+      "name": "profile-instruction-centralization",
+      "description": "Use when auditing/centralizing Hermes profile instructions.",
+      "version": "1.0.0",
+      "category": "devops",
       "runtimes": [
         "agents",
         "claude",
@@ -194,5 +206,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-04T04:53:33.778815"
+  "generated_at": "2026-08-11T00:23:56.706731"
 }
